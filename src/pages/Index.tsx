@@ -1,6 +1,4 @@
-
 import { FadeIn } from "@/components/animations/FadeIn";
-import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/Container";
 import { useEffect, useRef } from "react";
@@ -35,8 +33,6 @@ const Index = () => {
 
   return (
     <div className="relative min-h-screen">
-      <Header />
-      
       {/* Hero Section */}
       <section 
         ref={heroRef}
